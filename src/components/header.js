@@ -28,6 +28,7 @@ const Header = () => (
       border0bottom: 1px solid #ddd;
       display: flex;
       justify-content: space-between;
+      //   by adding this below, you dont have to have a div wrapper
       padding: 0.5rem calc((100vw - 550px - 0.5rem) / 2);
     `}
   >
