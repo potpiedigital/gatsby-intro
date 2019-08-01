@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
 					font-size: 18px;
 					line-height 1.4;
 
-					/* remove marginf ro the main div that gatsby mounts into */
+					/* remove margin ro the main div that gatsby mounts into */
 					> div {
 						margin-top: 0;
 					}
