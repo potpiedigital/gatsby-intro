@@ -7,11 +7,11 @@ import ReadLink from '../components/read-link';
 const PostTemplate = () => (
   <Layout>
     <h1>post title</h1>
-    <p>
-      css=
-      {css`
+    <p
+      css={css`
         font-size: 0.75 rem;
       `}
+    >
       Posted by (author)
     </p>
     <p>post body goes here</p>

@@ -1,6 +1,6 @@
 import { useStaticQuery, graphql } from 'gatsby';
 
-// if you wanted to create arcuments you could to create ways to filter
+// if you wanted to create arguments you could to create ways to filter
 
 const usePosts = () => {
   const data = useStaticQuery(graphql`
